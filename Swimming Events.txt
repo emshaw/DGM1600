@@ -30,3 +30,8 @@ Relays
 - 4 x 50 Free
 - 4 x 50 Medley
 - 4 x 100 Free
+
+
+
+Girls Events: Odd
+Boys Events: Even
