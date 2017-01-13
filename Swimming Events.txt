@@ -20,3 +20,8 @@ Butterfly
 - 50 Fly
 - 100 Fly
 - 200 Fly
+
+Individual Medley
+- 100 IM
+- 200 IM
+- 400 IM
