@@ -15,3 +15,8 @@ Breastroke
 - 50 Breast
 - 100 Breast
 - 200 Breast
+
+Butterfly
+- 50 Fly
+- 100 Fly
+- 200 Fly
