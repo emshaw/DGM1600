@@ -25,3 +25,8 @@ Individual Medley
 - 100 IM
 - 200 IM
 - 400 IM
+
+Relays
+- 4 x 50 Free
+- 4 x 50 Medley
+- 4 x 100 Free
