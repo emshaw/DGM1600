@@ -5,3 +5,8 @@ Freestyle
 - 500 Free
 - 1000 Free
 - 1650 Free
+
+Backstroke
+- 50 Back
+- 100 Back
+- 200 Back
