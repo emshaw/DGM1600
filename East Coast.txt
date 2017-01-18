@@ -1,0 +1,3 @@
+- Maine 		-17 F
+- Vermont		13 F
+- Massachussetts 	5 F
