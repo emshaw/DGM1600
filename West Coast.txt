@@ -1,0 +1,3 @@
+- California    50 F
+- Oregon        30 F
+- Washington    20 F
