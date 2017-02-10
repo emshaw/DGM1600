@@ -7,6 +7,12 @@ public class ElseClause : MonoBehaviour {
     public bool myBool;
     public string password;
     public bool userAgreement;
+    public int num1;
+    public int num2;
+    public string myString = "Cow";
+    public string username;
+    public int num3;
+    public int num4;
     
     // Use this for initialization
 	void Start () {
@@ -17,7 +23,6 @@ public class ElseClause : MonoBehaviour {
         {
             print(true);
         }
-      
         else
         {
             print(false);
@@ -30,6 +35,40 @@ public class ElseClause : MonoBehaviour {
         else
         {
             print("Incorrect");
-        }   	
+        }   
+        
+        if (num1 + num2 == 5)
+        {
+            print(true);
+        }	
+        else
+        {
+            print(false);
+        }
+
+        if (myString == "Cow")
+        {
+            print(true);
+        }
+        else
+        {
+            print(false);
+        }
+        if (username == "emily")
+        {
+            print("Correct");
+        }
+        else
+        {
+            print("Incorrect");
+        }
+        if (num3 - num3 == 18)
+        {
+            print(true);
+        }
+        else
+        {
+            print(false);
+        }
 	}
 }
