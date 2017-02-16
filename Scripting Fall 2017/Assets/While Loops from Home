@@ -1,0 +1,47 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class WhileLoops : MonoBehaviour {
+}
+namespace Example
+{
+	class ProgrammingExample 
+	{
+		static void Main(string[] args)
+		{
+			int counter = 0;
+
+			//as long as the counter is <10, print the value 
+			{
+				Console.WriteLine("Counter: {0}", counter);
+
+				counter++;
+			}
+		}
+	}
+}
+
+namespace While_Loop
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int num1, res, i;
+
+			Console.WriteLine ("Enter a number");
+			num1 = Convert.ToInt32 (Console.ReadLine ());
+
+			i = 1; //initialization - check whether or not condition matches
+			while (i <= 10) {
+				res = num1 * i;
+				Console.WriteLine ("{0} x {1} = {2}", num1, i, res);
+				i++; //increment by one
+			}
+			Console.ReadLine ();
+		}
+	}
+}
+
+
