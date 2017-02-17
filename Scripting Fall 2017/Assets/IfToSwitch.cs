@@ -50,6 +50,6 @@ public class IfToSwitch : MonoBehaviour {
                 break;//switch is better than if because you are giving it specific things to do or it'll just go to default 
         }
 
-        int  = 3 + 3;
+        
 	}
 }
