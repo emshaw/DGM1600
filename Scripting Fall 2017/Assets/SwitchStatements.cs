@@ -12,6 +12,16 @@ public class SwitchStatements : MonoBehaviour {
     public enum Colors {RED, GREEN, BLUE};//enums are objects - the nice thing is you can add more choices whenever you want 
     public Colors color; 
 
+    public enum GameStates
+    {
+        LOADING,
+        STARTING,
+        PLAYING,
+        ENDING
+    }
+
+    public GameStates currentGameState = GameStates.LOADING;
+
 
 	// Use this for initialization
 	void Start () {
