@@ -84,13 +84,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AddToinventoryList.cs" />
     <Compile Include="Assets\Arrays.cs" />
     <Compile Include="Assets\BadIfStatements.cs" />
     <Compile Include="Assets\ButtonAndMouseInput.cs" />
+    <Compile Include="Assets\ButtonsForWeapons.cs" />
     <Compile Include="Assets\ElseClause.cs" />
     <Compile Include="Assets\IfStatements.cs" />
     <Compile Include="Assets\IfToSwitch.cs" />
     <Compile Include="Assets\KeyInput.cs" />
+    <Compile Include="Assets\Lists.cs" />
     <Compile Include="Assets\Loops.cs" />
     <Compile Include="Assets\MathOperator.cs" />
     <Compile Include="Assets\SwitchStatements.cs" />

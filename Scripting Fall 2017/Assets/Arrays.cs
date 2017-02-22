@@ -23,21 +23,6 @@ public class Arrays : MonoBehaviour {
         }
     }
 
-    class Numbers
-    {
-        private static IEnumerable<int> numbers;
-
-        static void Main(string[] args)
-        {
-            int[] number = { 4, 3, 8, 0, 5 };
-
-            ArrayList.Sort(numbers);
-
-            foreach (int i in numbers)
-                System.Console.WriteLine(i);
-
-            System.Console.ReadLine();
-        }
-    }
+    
 }
 	
