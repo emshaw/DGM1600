@@ -70,6 +70,7 @@
     <Compile Include="Assets\ButtonsForWeapons.cs" />
     <Compile Include="Assets\ElseClause.cs" />
     <Compile Include="Assets\ForLoops.cs" />
+    <Compile Include="Assets\ForeachLoops.cs" />
     <Compile Include="Assets\IfStatements.cs" />
     <Compile Include="Assets\IfToSwitch.cs" />
     <Compile Include="Assets\InClass.cs" />
