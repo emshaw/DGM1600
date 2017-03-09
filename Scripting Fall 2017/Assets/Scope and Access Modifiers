@@ -1,0 +1,35 @@
+using UnityEngine;
+using System.Collections;
+ 
+public class Scope : MonoBehaviour {
+                public string owner = “Bob”;
+                private string renter = “Kate”;
+ 
+                void Awake ()
+                {
+                                string cat = “Joe”;
+                                if (cat == “Joe”)
+                                {
+                                                string mouse = “Helen”;
+                                                print(cat + “ate” + mouse);
+                                }
+                                print(cat);
+                                print(owner);
+                }
+}
+
+
+
+using UnityEngine;
+using SystemCollections;
+ 
+public class Access : MonoBehaviour {
+               
+                public Scope home;
+ 
+                void Start () {
+                                print(home.owner);
+                                print(home.renter);//this won’t work because the renter is PRIVATE
+               
+                }
+}
