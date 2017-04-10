@@ -1,0 +1,70 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int arg;
+
+        //Passing by value.
+        //The value of arg in Main is not changed.
+        arg = 4;
+        squareVal(arg);
+        Console.WriteLine(arg);
+        // Output: 4
+
+        //Pasing by reference.
+        //The value of arg in Main is changed
+        arg = 4;
+        squareRef(ref arg);
+        Console.WriteLine(arg);
+        // Output: 16
+    }
+
+    static void squareVal(int valParameter)
+    {
+        valParameter *= valParameter;
+    }
+
+    //Passing by reference
+    static void squareRef(ref int refParameter)
+    {
+        refParameter *= refParameter;
+    }
+}
+
+public class MyClass
+{
+    public static void UseParams(params int[] list)
+    {
+        for (int i = 0; i < list.Length; i++)
+        {
+            Console.Write(list[i] + " ");
+
+        }
+        Console.WriteLine();
+    }
+
+    static void Main()
+    {
+        //You can send a comma-separated lsit of arguments of the specified type
+        UseParams(1, 2, 3, 4);
+        UseParams2(1, 'a', "test");
+
+        //A params parameter accepts zero or more arguments
+        //The following calling statement displays only a blank line.
+        UseParams2();
+
+        //An array argument can be passed, as long as the array type matches the parameter type of the method being called.
+        int[] myIntArray = { 5, 6, 7, 8, 9 };
+        UseParams2(myIntArray);
+
+        object[] myObjArray = { 2, 'b', "test", "again" };
+        UseParams2(myObjArray);
+
+        UseParams2(myIntArray);
+    }
+}
+
