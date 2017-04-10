@@ -1,0 +1,74 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ReturnTest
+{
+	static double Calculate Area(int r)
+	{
+		double area = r * r * Mathf.PI;
+		return area;
+	}
+
+	static void Main()
+	{
+		int radius = 5;
+		double result = CalculateArea (radius);
+		Console.WriteLine ("The Area is {0:0.00}", result);
+
+		//Keep the console open in debug mode
+		Console.WriteLinle ("Press any key to exit.");
+		Console.ReadKey ();
+	}
+}
+//Output: The area is 78.54
+
+using System;
+
+class Program
+{
+	static void Main()
+		{
+			//Call four methods and store their return values
+			int value1 = MethodA ();
+			string value2 = MethodB (true);
+			string value3 = MethodB (false);
+			int value4 = MethodC (5, 2);
+
+			//Display the results
+			Console.WriteLine (value1);
+			Console.WriteLine (value2);
+			Console.WriteLine (value3);
+			Console.WriteLine (value4);
+
+			//Invoke a void method
+			MethodD ();
+		}
+
+	static int MethodA()
+		{
+			//This method returns a constant integer
+			return 100;
+		}
+
+	static string MethodB(bool flag)
+		{
+			//This method returns a string reference based on the flag
+			return flag ?
+			"cat" :
+			"dog";
+		}
+
+	static int MethodC(int operand1, int operand2)
+		{
+			//This method returns an integer based on an expression.
+			return (operand1 * 10) + operand2;
+		}
+
+	static void MethodD()
+		{
+			//This method uses a return statement with no expression (void).
+			Console.WriteLine ("MethodD executed");
+			return;
+		}
+}
